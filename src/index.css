@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.buttonsNav {
+    @apply px-2 cursor-pointer
+}
+
+.textBg {
+    @apply hover:bg-gradient-to-r from-[#1192c9] to-[#4961d4] via-[#7f35dd] hover:bg-clip-text hover:text-transparent hover:font-bold 
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
