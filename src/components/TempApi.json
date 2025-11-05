@@ -1,0 +1,37 @@
+[
+    {
+        "Imgname" : "HTML",
+        "name": "HTML",
+        "para": "Markup language for creating web pages"
+    },
+    {
+        "Imgname" : "CSS",
+        "name": "Vanila CSS",
+        "para": "Modern layouts and animations"
+    },
+    {
+        "name": "Javascript",
+        "para": "ES6+ and modern features"
+    },
+    {
+        "name": "ReactJS",
+        "para": "Component-based development"
+    },
+    {
+        "name": "Bootstrap",
+        "para": "Responsive framework"
+    },
+    {
+        "name": "Git",
+        "para": "Version control system"
+    },
+    {
+        "name": "Github",
+        "para": "Code collabration"
+    },
+    {
+        "name": "Tailwind CSS",
+        "para": "..."
+    }
+
+]
