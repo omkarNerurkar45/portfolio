@@ -14,11 +14,11 @@ const Skills = () => {
             <h1>Technologies and tools I use to bring ideas to life</h1>
           </div>
           <div className="flex flex-wrap justify-center gap-6 py-10 ">
-            
+
       {TempApi.map((skill, index) => (
         <div
           key={index}
-          className="pt-8 pb-10 h-[10vw] w-[15vw] rounded-[25px]
+          className="pt-8 pb-10 h-[11vw] w-[15vw] rounded-[25px]
                      flex flex-col items-center justify-center text-center 
                      border border-transparent hover:border-[#009ec0] cursor-pointer bg-[#161616]
                      transition-all duration-500 transform 
@@ -26,7 +26,7 @@ const Skills = () => {
              hover:shadow-2xl shadow-[#029dc1]"
         >
           <i className="ri-html5-line skill-icon">
-            <img className="h-15" src={`../public/img/${skill.name.toLowerCase()}.png`} alt={skill.name} />
+            <img className="h-15" src={`../img/${skill.name.toLowerCase()}.png`} alt={skill.name} />
           </i>
           <h1 className="font-bold text-[20px] pt-2">{skill.name}</h1>
           <p className="pt-2 pb-2 text-[16px]">{skill.para}</p>
