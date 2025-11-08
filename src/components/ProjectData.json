@@ -5,7 +5,7 @@
       "skills": ["React", "Tailwind", "JavaScript"],
       "image": "../public/img/portfolio.png",
       "demo": "https://yourportfolio.com",
-      "github": "https://github.com/yourusername/portfolio"
+      "github": "https://github.com/omkarNerurkar45/portfolio"
     },
     {
         "name": "Todo List",
