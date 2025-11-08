@@ -46,7 +46,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="px-5 py-4 bg-gradient-to-r from-[#1192c9] to-[#7f35dd] rounded-4xl text-sm font-semibold hover:opacity-90 transition transition-all duration-500 transform 
              hover:[transform:rotateY(5deg)_rotateX(10deg)_translateY(-10px)_scale(1.01)] 
-             hover:shadow-2xl shadow-[#029dc1]"
+             hover:shadow-2xs shadow-[#029dc1]"
               >
                 Live Demo
               </a>
@@ -55,7 +55,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-5 py-4 bg-[#2c2c2c] rounded-4xl text-sm font-semibold hover:bg-[#3a3a3a] transition hover:[transform:rotateY(5deg)_rotateX(10deg)_translateY(-10px)_scale(1.01)] 
-             hover:shadow-2xl shadow-[#029dc1]"
+             hover:shadow-2xs shadow-[#029dc1]"
               >
                 GitHub
               </a>

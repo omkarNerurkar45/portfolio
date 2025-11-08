@@ -24,3 +24,7 @@
     src: url(../fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
+.btnHover {
+    @apply transition-transform duration-300 ease-out 
+    hover:-translate-y-2 hover:shadow-2xl
+}

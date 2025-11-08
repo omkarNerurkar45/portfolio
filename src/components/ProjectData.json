@@ -11,7 +11,7 @@
         "name": "Todo List",
         "details": "A React-based To-Do List web app with Local Storage for persistent task management.",
         "skills": ["React", "Hooks", "Local Storage"],
-        "image": "../public/img/todo.png",
+        "image": "../img/todo.png",
         "demo": "https://todo-list-self-six-53.vercel.app/",
         "github": "https://github.com/omkarNerurkar45/todoList"
       },

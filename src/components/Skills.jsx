@@ -26,7 +26,7 @@ const Skills = () => {
              hover:shadow-2xl shadow-[#029dc1]"
         >
           <i className="ri-html5-line skill-icon">
-            <img className="h-15" src={`../img/${skill.name.toLowerCase()}.png`} alt={skill.name} />
+            <img className="h-15" src={`../public/img/${skill.name.toLowerCase()}.png`} alt={skill.name} />
           </i>
           <h1 className="font-bold text-[20px] pt-2">{skill.name}</h1>
           <p className="pt-2 pb-2 text-[16px]">{skill.para}</p>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Home = () => {
   const btnResume = () => {
@@ -12,7 +13,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-slate-800 h-[93vh] text-white bg-gradient-to-r from-[#0e1821] to-[#130a1b]">
+    <div className="bg-slate-800 h-[99vh] text-white bg-gradient-to-r from-[#0e1821] to-[#130a1b]">
       <div className="w-3/4 m-auto h-full flex justify-around">
         {/* Left Div */}
 
@@ -41,11 +42,11 @@ const Home = () => {
             </p>
           </div>
           <div className="btns flex">
-            <button className=" cursor-pointer font-bold m-8 border-2 rounded-3xl p-4 bg-gradient-to-r from-[#1192c9] to-[#4961d4] via-[#7f35dd] shadow-md border-amber-900">
-              View My Work
+            <button className="btnHover cursor-pointer font-bold m-8 rounded-3xl p-4 bg-gradient-to-r from-[#1192c9] to-[#4961d4] via-[#7f35dd] shadow-[#029dc1]">
+              <Link to="Projects" smooth={true} duration={700} offset={-80}>View My Work</Link>
             </button>
             <button
-              className="cursor-pointer font-bold m-8 border-2 border-[#1c96ac] text-[#1c96ac] rounded-3xl p-3 hover:text-white hover:bg-[#1c96ac] hover:duration-[0.6s] shadow-md shadow-[#1c96ac] "
+              className="btnHover cursor-pointer font-bold m-8 border-2 border-[#1c96ac] text-[#1c96ac] rounded-3xl p-3 hover:text-white hover:bg-[#1c96ac] hover:duration-[0.6s] shadow-md shadow-[#1c96ac] "
               onClick={btnResume}
             >
               Download CV
