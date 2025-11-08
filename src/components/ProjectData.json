@@ -3,7 +3,7 @@
       "name": "Portfolio Website",
       "details": "A personal portfolio built using React and Tailwind CSS.",
       "skills": ["React", "Tailwind", "JavaScript"],
-      "image": "../public/img/portfolio.png",
+      "image": "../src/Assets/img/portfolio.png",
       "demo": "https://yourportfolio.com",
       "github": "https://github.com/omkarNerurkar45/portfolio"
     },
@@ -11,7 +11,7 @@
         "name": "Todo List",
         "details": "A React-based To-Do List web app with Local Storage for persistent task management.",
         "skills": ["React", "Hooks", "Local Storage"],
-        "image": "../img/todo.png",
+        "image": "../src/Assets/img/todo.png",
         "demo": "https://todo-list-self-six-53.vercel.app/",
         "github": "https://github.com/omkarNerurkar45/todoList"
       },
@@ -19,7 +19,7 @@
       "name": "Akshata Furniture Shop",
       "details": "Designed and developed a custom website for Akshata Furniture to elevate their brand online",
       "skills": ["HTML", "CSS", "JavaScript"],
-      "image": "../public/img/furniture.png",
+      "image": "../src/Assets/img/furniture.png",
       "demo": "http://omkarnerurkar45.github.io/akshstaFurnitureShop/",
       "github": "https://github.com/omkarNerurkar45/akshstaFurnitureShop"
     },
@@ -27,7 +27,7 @@
       "name": "Netflix Clone",
       "details": "A fully responsive Netflix Clone website",
       "skills": ["HTML", "CSS"],
-      "image": "../public/img/nf.png",
+      "image": "../src/Assets/img/nf.png",
       "demo": "https://omkarnerurkar45.github.io/NetflixClone/",
       "github": "https://github.com/omkarNerurkar45/NetflixClone"
     },
@@ -35,7 +35,7 @@
       "name": "Spotify Clone",
       "details": "Experience music your way — a Spotify-inspired web app with smooth UI and dynamic playlists.",
       "skills": ["HTML", "CSS", "JavaScript", "API"],
-      "image": "../public/img/spotify.png",
+      "image": "../src/Assets/img/spotify.png",
       "demo": "https://spotify-js-clone.vercel.app/",
       "github": "https://github.com/omkarNerurkar45/spotifyJSClone"
     }
