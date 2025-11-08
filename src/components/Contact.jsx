@@ -32,14 +32,14 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Contact Cards */}
+      
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl">
         
         <div
           className="transition-transform duration-300 ease-out 
                      hover:-translate-y-2 bg-[#161616] p-6 rounded-2xl flex flex-col gap-3 items-center text-center shadow-md"
         >
-          <img src="../src/Assets/img/mail.png" className="w-12 sm:w-14" alt="mail" />
+          <img src="../img/mail.png" className="w-12 sm:w-14" alt="mail" />
           <h1 className="font-bold text-xl sm:text-2xl">Email Me</h1>
           <p className="text-[#959797] text-sm sm:text-base">
             omkarnerurkar7@gmail.com
@@ -84,7 +84,7 @@ const Contact = () => {
         <ul className="flex gap-8 justify-center items-center">
           <li>
             <img
-              src="../src/Assets/img/gt.gif"
+              src="/img/gt.gif"
               className="rounded-full w-8 sm:w-10 cursor-pointer hover:scale-110 transition-transform"
               alt="GitHub"
               onClick={handleGit}
@@ -92,7 +92,7 @@ const Contact = () => {
           </li>
           <li>
             <img
-              src="../src/Assets/img/linkedin.png"
+              src="/img/linkedin.png"
               className="w-8 sm:w-10 cursor-pointer hover:scale-110 transition-transform"
               alt="LinkedIn"
               onClick={handleProfile}
@@ -100,7 +100,7 @@ const Contact = () => {
           </li>
           <li>
             <img
-              src="../src/Assets/img/insta.svg"
+              src="/img/insta.svg"
               className="w-8 sm:w-10 cursor-pointer hover:scale-110 transition-transform"
               alt="Instagram"
               onClick={handleInsta}
