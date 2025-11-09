@@ -29,8 +29,9 @@ const Skills = () => {
                        border border-transparent cursor-pointer
                        transition-all duration-500
                        hover:scale-105
-                       md:hover:[transform:rotateY(10deg)_rotateX(10deg)_translateY(-10px)_scale(1.05)] 
-             hover:shadow-lg shadow-[#029dc1]"
+                       hover:[transform:rotateY(10deg)_rotateX(10deg)_translateY(-10px)_scale(1.05)] 
+             hover:shadow-lg shadow-[#029dc1] 
+                       "
           >
             <img
               className="h-14 sm:h-20 md:h-[3vw]"
