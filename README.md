@@ -187,3 +187,4 @@ This project is licensed under the MIT License. Feel free to use the template an
 
 ---
 ##  Screenshots
+<img width="1901" height="738" alt="portfolio" src="https://github.com/user-attachments/assets/f95084b9-1f38-41f7-b35b-5964a1d68bb9" />
