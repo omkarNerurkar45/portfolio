@@ -34,7 +34,7 @@ const Skills = () => {
           >
             <img
               className="h-14 sm:h-20 md:h-[3vw]"
-              src={`public/img/${skill.name.toLowerCase()}.png`}
+              src={`img/${skill.name}.png`}
               alt={skill.name}
             />
             <h1 className="font-bold text-lg sm:text-xl md:text-[20px] pt-2">{skill.name}</h1>
