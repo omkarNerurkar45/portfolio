@@ -66,7 +66,7 @@ const Home = () => {
             <div className="overflow-hidden rounded-full h-full bg-[#0e1821]">
               <img
                 className="w-full h-full object-cover rounded-full"
-                src="/img/photo.png"
+                src="https://avatars.githubusercontent.com/u/55201759?v=4"
                 alt="Omkar Nerurkar"
               />
             </div>

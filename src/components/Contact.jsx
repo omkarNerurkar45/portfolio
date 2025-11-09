@@ -39,7 +39,7 @@ const Contact = () => {
           className="transition-transform duration-300 ease-out 
                      hover:-translate-y-2 bg-[#161616] p-6 rounded-2xl flex flex-col gap-3 items-center text-center shadow-md"
         >
-          <img src="../img/mail.png" className="w-12 sm:w-14" alt="mail" />
+          <img src="https://img.icons8.com/?size=100&id=HyjRWfleuVje&format=png&color=000000" className="w-12 sm:w-14" alt="Email" />
           <h1 className="font-bold text-xl sm:text-2xl">Email Me</h1>
           <p className="text-[#959797] text-sm sm:text-base">
             omkarnerurkar7@gmail.com
@@ -59,7 +59,7 @@ const Contact = () => {
           className="transition-transform duration-300 ease-out 
                      hover:-translate-y-2 bg-[#161616] p-6 rounded-2xl flex flex-col gap-3 items-center text-center shadow-md"
         >
-          <img src="../src/Assets/img/linkedin.png" className="w-12 sm:w-14" alt="linkedin" />
+          <img src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000" className="w-12 sm:w-14" alt="linkedin" />
           <h1 className="font-bold text-xl sm:text-2xl">LinkedIn</h1>
           <p className="text-[#959797] text-sm sm:text-base">
             Let's connect professionally
@@ -84,7 +84,7 @@ const Contact = () => {
         <ul className="flex gap-8 justify-center items-center">
           <li>
             <img
-              src="/img/gt.gif"
+              src="https://img.icons8.com/?size=100&id=u9R54eMKS8fw&format=png&color=000000"
               className="rounded-full w-8 sm:w-10 cursor-pointer hover:scale-110 transition-transform"
               alt="GitHub"
               onClick={handleGit}
@@ -92,7 +92,7 @@ const Contact = () => {
           </li>
           <li>
             <img
-              src="/img/linkedin.png"
+              src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000"
               className="w-8 sm:w-10 cursor-pointer hover:scale-110 transition-transform"
               alt="LinkedIn"
               onClick={handleProfile}

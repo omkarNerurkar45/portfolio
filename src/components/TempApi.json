@@ -1,35 +1,41 @@
 [
     {
-        "Imgname" : "HTML",
+        "img" : "https://img.icons8.com/?size=100&id=zRvbzAjx4VWY&format=png&color=#339AF0",
         "name": "HTML",
         "para": "Markup language for creating web pages"
     },
     {
-        "Imgname" : "CSS",
+        "img" : "https://img.icons8.com/?size=100&id=4d9YPiN04osD&format=png&color=000000",
         "name": "Vanila CSS",
         "para": "Modern layouts and animations"
     },
     {
+        "img": "https://img.icons8.com/?size=100&id=laVIsJnTtYoj&format=png&color=000000",
         "name": "Javascript",
         "para": "ES6+ and modern features"
     },
     {
+        "img": "https://img.icons8.com/?size=100&id=t5K2CR8feVdX&format=png&color=000000",
         "name": "ReactJS",
         "para": "Component-based development"
     },
     {
+        "img": "https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000",
         "name": "Bootstrap",
         "para": "Responsive framework"
     },
     {
+        "img": "https://img.icons8.com/?size=100&id=xBKl2pdJg5kk&format=png&color=000000",
         "name": "Git",
         "para": "Version control system"
     },
     {
+        "img": "https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000",
         "name": "Github",
         "para": "Code collabration"
     },
     {
+        "img": "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
         "name": "Tailwind CSS",
         "para": "Utility-first CSS framework for customization"
     }

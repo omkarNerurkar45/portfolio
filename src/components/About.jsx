@@ -13,6 +13,7 @@ const About = () => {
       <div className="bg-[#131313] shadow-md p-5 sm:p-8 md:p-10 rounded-3xl max-w-5xl mx-auto">
         
         <p className="text-lg sm:text-xl leading-8 mb-5">
+          
           I'm a passionate and highly motivated frontend developer with a strong foundation in building modern, responsive web applications. My journey into web development began with a fascination for how websites work, and I've dedicated myself to learning the skills needed to create seamless user experiences.
         </p>
         <p className="text-lg sm:text-xl leading-8 mb-5">
