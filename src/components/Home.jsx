@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   const btnResume = () => {
     
-    const pdfUrl = "/omkarNerurkar_resume.pdf";
+    const pdfUrl = "https://docs.google.com/document/d/1fuF0SsxI1LzEaPk15tUrptHi04O_FTxxVsxLg6tdS7U/edit?usp=sharing";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "omkarNerurkar_resume.pdf";
