@@ -1,5 +1,13 @@
 [
   {
+    "name": "Mojito Website",
+    "details": "A stylish, motion-rich Mojito website crafted with a fully responsive and immersive user experience",
+    "skills": ["React", "Tailwind", "JavaScript", "GSAP"],
+    "image": "https://github.com/user-attachments/assets/1592b2e3-abdd-4295-b2ce-c6eb5e0ec5af",
+    "demo": "https://gsap-mojito-omega.vercel.app/",
+    "github": "https://github.com/omkarNerurkar45/gsap_mojito"
+  },
+  {
     "name": "Portfolio Website",
     "details": "A personal portfolio built using React and Tailwind CSS.",
     "skills": ["React", "Tailwind", "JavaScript"],

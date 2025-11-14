@@ -1,15 +1,26 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import React from "react";
 import { Link } from "react-scroll";
 
 const Home = () => {
   const btnResume = () => {
-    // ✅ Use PDF from the public folder
+    
     const pdfUrl = "/omkarNerurkar_resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "omkarNerurkar_resume.pdf";
     link.click();
   };
+
+  useGSAP(()=> {
+    gsap.to('#imgHome', {
+      x: -250,
+      repeat:1,
+      yoyo: true,
+      duration: 2,
+    })
+  }, []);
 
   return (
     <section
@@ -61,9 +72,9 @@ const Home = () => {
 
         
         <div className="flex justify-center lg:justify-end w-full lg:w-1/2 mt-6 lg:mt-16 animate-fadeInUp">
-          <div className="rounded-full p-[3px] bg-gradient-to-b from-[#4961d4] to-[#7f35dd] 
+          <div id="imgHome" className="rounded-full p-[3px] bg-gradient-to-b from-[#4961d4] to-[#7f35dd] 
             h-[55vw] sm:h-[35vw] md:h-[25vw] lg:h-[18vw] max-h-[280px] min-h-[150px]">
-            <div className="overflow-hidden rounded-full h-full bg-[#0e1821]">
+            <div id="imgHome" className="overflow-hidden rounded-full h-full bg-[#0e1821]">
               <img
                 className="w-full h-full object-cover rounded-full"
                 src="https://avatars.githubusercontent.com/u/55201759?s=400&u=b824473b97957ca7727a452664d7ffaa8746956d&v=4"
