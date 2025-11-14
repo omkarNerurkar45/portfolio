@@ -13,15 +13,6 @@ const Home = () => {
     link.click();
   };
 
-  useGSAP(()=> {
-    gsap.to('#imgHome', {
-      x: -250,
-      repeat:1,
-      yoyo: true,
-      duration: 2,
-    })
-  }, []);
-
   return (
     <section
       id="Home"
